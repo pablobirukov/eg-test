@@ -17,7 +17,7 @@ define(
         };
         var getNodeCmp = function(unhandledBranch){
           return _.div({className: 'tree-node-wrapper'},
-            TreeNodeCmp({binding: binding.sub(unhandledBranch.bindingPath), parentCmp: self, level: unhandledBranch.depth})
+            TreeNodeCmp({binding: binding.sub(unhandledBranch.bindingPath), level: unhandledBranch.depth, key: unhandledBranch.bindingPath})
           );
         };
         var flatLevel = function(unhandledBranches, acc, depth){
@@ -50,9 +50,6 @@ define(
             depth++;
           } else break;
         }
-
-//        $('#log').empty();
-//        nodeAcc.map(function(i){$('#log').append(React.renderComponentToStaticMarkup(i));});
 
         return _.div.apply(_.div, [{className: 'tree iterative-tree col-md-6'}, AddRootNodeCmp({binding: binding})].concat(nodeAcc));
       }

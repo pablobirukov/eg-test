@@ -21,3 +21,7 @@ div.tree-node-control-block {
     padding-left: 15px;
     vertical-align: middle;
 }
+.description {
+    padding: 20px;
+    font-size: 1.3em;
+}
