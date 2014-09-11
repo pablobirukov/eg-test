@@ -1,0 +1,23 @@
+
+.tree-node input {
+    border: none;
+    width: 100%;
+    display: table-cell;
+}
+.tree-node * {
+    font-size: 1.3em;
+}
+.tree-node {
+    display: table;
+    width: 100%;
+    margin: 10px 0;
+}
+.tree-node-wrapper {
+
+}
+div.tree-node-control-block {
+    display: table-cell;
+    width: 185px;
+    padding-left: 15px;
+    vertical-align: middle;
+}
