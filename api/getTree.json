@@ -1,0 +1,41 @@
+[{
+  "guid": "b76c26d6-e9c0-486f-9527-2c300bedb6b9",
+  "label": "Language",
+  "children": [{
+    "guid": "e398432b-e049-48b6-b72b-3523b866e031",
+    "label": "English",
+    "children": []
+  },{
+    "guid": "ca484ccf-709f-4f96-b6cc-a2ee11509d9c",
+    "label": "Russian",
+    "children": []
+  }]
+},
+  {
+    "guid": "b76c26d6-e9c0-486f-9527-2c300bedb6b9",
+    "label": "Tech",
+    "children": [{
+      "guid": "e398432b-e049-48b6-b72b-3523b866e031",
+      "label": "JS",
+      "children": [{
+        "guid": "b76c26d6-e9c0-486f-9527-2c300bedb6b9",
+        "label": "Language",
+        "children": [{
+          "guid": "e398432b-e049-48b6-b72b-3523b866e031",
+          "label": "English",
+          "children": [{
+            "label": "Foo Bar",
+            "children": []
+          }]
+        },{
+          "guid": "ca484ccf-709f-4f96-b6cc-a2ee11509d9c",
+          "label": "Russian",
+          "children": []
+        }]
+      }]
+    },{
+      "guid": "ca484ccf-709f-4f96-b6cc-a2ee11509d9c",
+      "label": "Haskell",
+      "children": []
+    }]
+  }]
