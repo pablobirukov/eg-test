@@ -1,4 +1,5 @@
-define(['lib/morearty-0.3.1', 'lib/react-0.11.1', 'lib/immutable'], function(Morearty, React, Immutable){
+define(['lib/morearty-0.3.1', 'lib/react-0.11.1'], function(Morearty, React){
+  'use strict';
   return React.createClass({
     mixins: [Morearty.Mixin],
     deleteNode: function(){

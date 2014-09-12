@@ -13,7 +13,10 @@ module.exports = function (grunt) {
       ]}
     },
     jshint: {
-      all: ['src/*.js', 'src/*/*.js', '!src/lib/*']
+      all: ['src/*.js', 'src/*/*.js', '!src/lib/*'],
+      options: {
+        newcap: false
+      }
     },
     watch: {
       scipts: {

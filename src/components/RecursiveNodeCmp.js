@@ -1,15 +1,15 @@
 define(
   ['lib/morearty-0.3.1', 'lib/react-0.11.1', 'lib/immutable', 'components/RemoveNodeCmp', 'components/TreeNodeCmp'],
   function (Morearty, React, Immutable, RemoveNodeCmp, TreeNodeCmp) {
+    'use strict';
     var RecursiveNodeCmp = React.createClass({
       mixins: [Morearty.Mixin],
       render: function () {
-        var ctx = this.getMoreartyContext(),
-          _ = React.DOM,
+        var _ = React.DOM,
           binding = this.getDefaultBinding();
           var self = this;
-          return ctx._.div.apply(
-            ctx._,
+          return _.div.apply(
+            _,
             [
               {className: 'tree-node-wrapper'},
               TreeNodeCmp({binding: binding, level: self.props.level})
