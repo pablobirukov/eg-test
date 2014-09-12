@@ -1,6 +1,7 @@
 define(
   ['lib/morearty-0.3.1', 'lib/react-0.11.1', 'components/RecursiveNodeCmp', 'components/AddRootNodeCmp'],
   function (Morearty, React, RecursiveNodeCmp, AddRootNodeCmp) {
+    'use strict';
     return React.createClass({
       mixins: [Morearty.Mixin],
       render: function () {
